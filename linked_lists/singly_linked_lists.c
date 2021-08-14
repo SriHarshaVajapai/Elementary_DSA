@@ -1,6 +1,4 @@
 /*
-    SAMPLE INPUT/OUTPUT
-
     Enter the data with -1 as terminator:
     2 3 5 -1
     The list: 2->3->5->NULL
@@ -15,7 +13,7 @@
     List after deleting at end: 2->3->4->5->NULL
     Enter the position to delete(neither first nor last): 3
     List after deleting nth node: 2->3->5->NULL
-    
+
 */
 
 #include <stdio.h>

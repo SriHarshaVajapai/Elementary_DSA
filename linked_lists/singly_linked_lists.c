@@ -1,4 +1,5 @@
 /*
+
     SAMPLE INPUT/OUTPUT
     Enter the data with -1 as terminator:
     2 3 5 -1

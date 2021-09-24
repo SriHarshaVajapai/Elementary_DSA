@@ -88,7 +88,7 @@ struct node *find_pos_to_insert(int priority){
     struct node *current = front;
     while (current != NULL)
     {
-        if (priority < current->priority && priority > current->next->priority) break;
+        if (priority <= current->priority && priority > current->next->priority) break;
         current = current->next;
     }
     return current;
